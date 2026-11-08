@@ -4,6 +4,5 @@
   "private": true,
   "type": "module",
   "description": "Private-domain growth dashboard with independently generated synthetic data",
-  "engines": {"node": ">=22"},
-  "scripts": {"demo": "node scripts/generate-demo.mjs", "build": "node scripts/build.mjs", "check:public": "node scripts/check-public.mjs"}
+  "engines": {"node": ">=22"}
 }
