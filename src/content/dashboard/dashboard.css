@@ -1,0 +1,57 @@
+.sy-dashboard{padding:20px 0 32px;font-family:Inter,'Microsoft YaHei','PingFang SC',sans-serif}
+.sy-context{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:4px 0 23px}
+.sy-eyebrow{font-size:10px;letter-spacing:2px;font-weight:700;color:var(--chart-1)}
+.sy-context p{margin:9px 0 0;font-size:18px;font-weight:500;letter-spacing:.2px}
+.sy-context a{font-size:12px;text-decoration:none;color:var(--secondary);white-space:nowrap}
+.sy-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 0 24px;border-top:1px solid var(--border)}
+.sy-controls,.sy-table-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.sy-freshness{font-size:12px;color:var(--secondary);display:flex;align-items:center;gap:7px}
+.sy-freshness i{width:6px;height:6px;border-radius:50%;background:var(--chart-3)}
+.sy-comparison-note{font-size:12px;color:var(--secondary);margin:-8px 0 20px;line-height:1.7}
+.sy-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}
+/* Requested presentation: remove grid lines only inside the authored trend plots. */
+.sy-trend-chart .recharts-cartesian-grid{display:none}
+/* Daily bars keep every observation, with complete horizontal MM-DD labels every two days. */
+.sy-daily-bar-dates .recharts-xAxis-tick-labels>.recharts-cartesian-axis-tick-label:nth-child(even){visibility:hidden}
+.sy-daily-bar-dates .recharts-xAxis-tick-labels text[data-axis-layout="date-time"]{font-size:11px;text-anchor:middle}
+.sy-span-3{grid-column:span 3;min-width:0}.sy-span-6{grid-column:span 6;min-width:0}.sy-span-12{grid-column:span 12;min-width:0}
+.sy-table-controls input{background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:8px 12px;max-width:100%;font:inherit;font-size:12px}
+.sy-footer{margin-top:24px;padding-top:18px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--secondary)}
+.sy-panel-note{font-size:12px;color:var(--secondary);line-height:1.8;margin:8px 0 14px}
+.sy-summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:20px;padding:8px 0}
+.sy-summary-item{display:flex;flex-direction:column;gap:8px;font-variant-numeric:tabular-nums}
+.sy-summary-item>span{font-size:13px;color:var(--secondary)}
+.sy-summary-item strong{font-size:28px;font-weight:600;color:var(--text)}
+.sy-summary-item b{font-size:15px;font-weight:500}
+.sy-summary-item small{font-size:12px;color:var(--secondary);line-height:1.8}
+.sy-summary-headline{font-size:14px;line-height:1.8;margin:12px 0 16px;padding-left:12px;border-left:3px solid var(--chart-1);color:var(--text)}
+.sy-share-cell{display:flex;align-items:center;justify-content:flex-end;gap:8px;min-width:105px;font-variant-numeric:tabular-nums}
+.sy-share-track{display:inline-block;position:relative;width:56px;height:5px;background:var(--border);border-radius:4px;overflow:hidden}
+.sy-share-track i{display:block;height:100%;background:var(--chart-1)}
+.sy-rate-frame{position:relative;height:238px;margin:20px 12px 42px 48px}
+.sy-rate-y{position:absolute;inset:0 auto 0 -48px;width:40px;font-size:11px;color:var(--secondary)}
+.sy-rate-y span{position:absolute;right:2px;transform:translateY(-50%)}
+.sy-rate-plot{height:100%;position:relative;border-bottom:1px solid var(--border)}
+.sy-rate-plot>svg{width:100%;height:100%;overflow:visible}
+.sy-rate-point{position:absolute;height:4px;width:4px;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+.sy-rate-hit{position:absolute;top:-5px;bottom:-5px;transform:translateX(-50%);padding:0;border:0;background:transparent;cursor:crosshair;min-width:4px}
+.sy-rate-hit:focus-visible{outline:2px solid var(--chart-1);outline-offset:2px}
+.sy-rate-x{position:absolute;top:100%;left:0;right:0;height:30px;font-size:11px;color:var(--secondary)}
+.sy-rate-x span{position:absolute;top:12px;white-space:nowrap;transform:translateX(-50%)}
+.sy-rate-legend{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin:8px 0 0}
+.sy-rate-legend button{display:flex;align-items:center;gap:6px;font:inherit;font-size:12px;border:0;background:transparent;color:var(--secondary);cursor:pointer;padding:4px}
+.sy-rate-legend i{width:14px;height:3px;border-radius:2px}
+.sy-scatter-axis-title,.sy-scatter-x-title{font-size:12px;color:var(--secondary)}
+.sy-scatter-frame{margin-top:22px;margin-bottom:32px;margin-right:30px;height:250px}
+.sy-scatter-plot{border-left:1px solid var(--border)}
+.sy-scatter-point{position:absolute;transform:translate(-50%,-50%);min-width:26px;height:26px;padding:0 5px;border:2px solid var(--surface);border-radius:20px;color:#fff;font-size:11px;font-weight:700;cursor:pointer;z-index:1}
+.sy-scatter-point:focus-visible{outline:2px solid var(--text);outline-offset:3px}
+.sy-scatter-x-title{text-align:right;margin:0 12px 20px}
+.sy-scatter-key{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px 24px}
+.sy-scatter-key>div{display:flex;gap:9px;align-items:center}
+.sy-scatter-key b{display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:50%;font-size:11px;color:#fff}
+.sy-scatter-key strong{display:block;font-size:12px;font-weight:500}
+.sy-scatter-key small{display:block;font-size:11px;color:var(--secondary);line-height:1.8}
+.sy-scatter-empty{position:absolute;inset:30% 0 auto;text-align:center;font-size:13px;color:var(--secondary)}
+@media(max-width:1000px){.sy-span-3{grid-column:span 6}.sy-span-6{grid-column:span 12}.sy-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:550px){.sy-context{align-items:flex-start}.sy-context p{font-size:15px}.sy-span-3{grid-column:span 12}.sy-toolbar{gap:14px}.sy-grid{gap:12px}.sy-summary-grid{grid-template-columns:1fr}}

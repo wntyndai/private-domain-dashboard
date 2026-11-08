@@ -1,0 +1,564 @@
+{
+  "resource": [
+    {
+      "id": "r3",
+      "label": "日维度加c用户数",
+      "section": "汇总",
+      "valueKind": "number"
+    },
+    {
+      "id": "r4",
+      "label": "加c当日进群数",
+      "section": "汇总",
+      "valueKind": "number"
+    },
+    {
+      "id": "r5",
+      "label": "加c当日进群率",
+      "section": "汇总",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r6",
+      "label": "累计进群用户数",
+      "section": "汇总",
+      "valueKind": "number"
+    },
+    {
+      "id": "r7",
+      "label": "累计进群率",
+      "section": "汇总",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r8",
+      "label": "累计在群用户数",
+      "section": "汇总",
+      "valueKind": "number"
+    },
+    {
+      "id": "r9",
+      "label": "累计进群留存率",
+      "section": "汇总",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r10",
+      "label": "日维度加c用户数",
+      "section": "app资源位",
+      "valueKind": "number"
+    },
+    {
+      "id": "r11",
+      "label": "进群用户数",
+      "section": "app资源位",
+      "valueKind": "number"
+    },
+    {
+      "id": "r12",
+      "label": "进群率",
+      "section": "app资源位",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r13",
+      "label": "日维度加c用户数",
+      "section": "小程序弹窗",
+      "valueKind": "number"
+    },
+    {
+      "id": "r14",
+      "label": "进群用户数",
+      "section": "小程序弹窗",
+      "valueKind": "number"
+    },
+    {
+      "id": "r15",
+      "label": "进群率",
+      "section": "小程序弹窗",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r16",
+      "label": "日维度加c用户数",
+      "section": "APP新人专区",
+      "valueKind": "number"
+    },
+    {
+      "id": "r17",
+      "label": "进群用户数",
+      "section": "APP新人专区",
+      "valueKind": "number"
+    },
+    {
+      "id": "r18",
+      "label": "进群率",
+      "section": "APP新人专区",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r19",
+      "label": "日维度加c用户数",
+      "section": "小程序新人专区",
+      "valueKind": "number"
+    },
+    {
+      "id": "r20",
+      "label": "进群用户数",
+      "section": "小程序新人专区",
+      "valueKind": "number"
+    },
+    {
+      "id": "r21",
+      "label": "进群率",
+      "section": "小程序新人专区",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r22",
+      "label": "累计触达数量",
+      "section": "召回链路",
+      "valueKind": "number"
+    },
+    {
+      "id": "r23",
+      "label": "累计进群数量",
+      "section": "召回链路",
+      "valueKind": "number"
+    },
+    {
+      "id": "r24",
+      "label": "累计进群率",
+      "section": "召回链路",
+      "valueKind": "rate"
+    }
+  ],
+  "group": [
+    {
+      "id": "r2",
+      "label": "累计进群人数",
+      "section": "进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r3",
+      "label": "累计在群人数",
+      "section": "进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r4",
+      "label": "累计留存率",
+      "section": "进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r5",
+      "label": "累计在群新客人数",
+      "section": "进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r6",
+      "label": "累计在群新客占比",
+      "section": "进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r7",
+      "label": "新增进群人数",
+      "section": "进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r8",
+      "label": "在群人数",
+      "section": "进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r9",
+      "label": "留存率",
+      "section": "进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r10",
+      "label": "当日在群支付人数",
+      "section": "进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r11",
+      "label": "当日在群支付gmv",
+      "section": "进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r12",
+      "label": "当日在群支付率",
+      "section": "进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r13",
+      "label": "当日在群核销人数",
+      "section": "进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r14",
+      "label": "当日在群核销gmv",
+      "section": "进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r15",
+      "label": "当日在群核销率",
+      "section": "进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r16",
+      "label": "累计支付人数_全量",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r17",
+      "label": "累计支付率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r18",
+      "label": "累计支付gmv_全量",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r19",
+      "label": "30日内支付人数_全量",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r20",
+      "label": "30日内支付率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r21",
+      "label": "30日内支付gmv_全量",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r22",
+      "label": "累计核销人数_全量",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r23",
+      "label": "累计核销率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r24",
+      "label": "累计核销收入_全量",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r25",
+      "label": "30日内核销人数_全量",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r26",
+      "label": "30日内核销率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r27",
+      "label": "30日内核销收入_全量",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r28",
+      "label": "累计支付人数_新客",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r29",
+      "label": "累计支付率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r30",
+      "label": "累计支付gmv_新客",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r31",
+      "label": "30日内支付人数_新客",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r32",
+      "label": "30日内支付率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r33",
+      "label": "30日内支付gmv_新客",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r34",
+      "label": "累计核销人数_新客",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r35",
+      "label": "累计核销率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r36",
+      "label": "累计核销收入_新客",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r37",
+      "label": "30日内核销人数_新客",
+      "section": "新增进群规模",
+      "valueKind": "number"
+    },
+    {
+      "id": "r38",
+      "label": "30日内核销率",
+      "section": "新增进群规模",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r39",
+      "label": "30日内核销收入_新客",
+      "section": "新增进群规模",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r40",
+      "label": "新客进群人数",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r41",
+      "label": "在群人数",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r42",
+      "label": "留存率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r43",
+      "label": "当日在群支付人数_进群新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r44",
+      "label": "当日在群支付gmv_进群新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r45",
+      "label": "当日在群支付率_进群新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r46",
+      "label": "当日在群核销人数_进群新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r47",
+      "label": "当日在群核销gmv_进群新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r48",
+      "label": "当日在群核销率_进群新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r49",
+      "label": "累计支付人数_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r50",
+      "label": "累计支付率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r51",
+      "label": "累计支付gmv_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r52",
+      "label": "30日内支付人数_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r53",
+      "label": "30日内支付率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r54",
+      "label": "30日内支付gmv_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r55",
+      "label": "累计核销人数_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r56",
+      "label": "累计核销率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r57",
+      "label": "累计核销收入_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r58",
+      "label": "30日内核销人数_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r59",
+      "label": "30日内核销率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r60",
+      "label": "30日内核销收入_全量",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r61",
+      "label": "累计支付人数_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r62",
+      "label": "累计支付率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r63",
+      "label": "累计支付gmv_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r64",
+      "label": "30日内支付人数_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r65",
+      "label": "30日内支付率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r66",
+      "label": "30日内支付gmv_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r67",
+      "label": "累计核销人数_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r68",
+      "label": "累计核销率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r69",
+      "label": "累计核销收入_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    },
+    {
+      "id": "r70",
+      "label": "30日内核销人数_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "number"
+    },
+    {
+      "id": "r71",
+      "label": "30日内核销率",
+      "section": "新增进群规模_新客",
+      "valueKind": "rate"
+    },
+    {
+      "id": "r72",
+      "label": "30日内核销收入_新客",
+      "section": "新增进群规模_新客",
+      "valueKind": "currency"
+    }
+  ]
+}
